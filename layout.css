@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Page_Container{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 850px;
+    display: flex;
+    box-shadow: 2px 3px 30px gray;
+}
+
+.logo_container{
+    /* border: 1px solid black; */
+    width: 350px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    font-size: 15px;
+}
+
+.sub_con{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS';
+}
+
+.back_color_div{
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 46.2%;
+    background-color:#f15bce;
+    z-index: -1;
+}
+
+.form_container{
+    /* border: 1px solid black; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#needHelp{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: 'Trebuchet MS';
+}
+
+.login_form_con{
+    /* border: 1px solid black; */
+    width: 430px;
+}
+
+.login_form_con > h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form_group{
+    margin-bottom: 15px;
+}
+
+.form_group > label{
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700px;
+    margin-bottom: 5px;
+}
+
+.form_group > input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#forgetpass{
+    display: block;
+    text-align: right;
+    font-family: 'Trebuchet MS';
+}
+
+.loginbtn{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 12px;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    background-color: #f392f1;
+    border: 0px;
+}
+
+.loginbtn:hover{
+    transform: scale(1.1) translateY(-5px);
+    transition: .3s ease;
+    background-color: #f15bce;
+    box-shadow: 0  0 25px #e92f98;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    cursor: pointer;
+}
